@@ -47,10 +47,10 @@ const NAMES: string[] = [
 
 @Component({
   selector: 'app-user-list',
-  templateUrl: './user-list.component.html',
-  styleUrls: ['./user-list.component.css']
+  templateUrl: './inventary.component.html',
+  styleUrls: ['./inventary.component.css']
 })
-export class UserListComponent implements OnInit {
+export class InventaryListComponent implements OnInit {
   displayedColumns: string[] = ['id', 'name', 'progress', 'fruit'];
   dataSource: MatTableDataSource<UserData>;
 

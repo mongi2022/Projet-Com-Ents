@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { UsersRoutingModule } from './users-routing.module';
-import { UserListComponent } from './user-list/user-list.component';
+import { UsersRoutingModule } from './inventary-routing.module';
+import { InventaryListComponent } from './inventary/inventary.component';
 import { SharedModule } from 'src/app/shared/shared.module';
 
 @NgModule({
@@ -11,6 +11,6 @@ import { SharedModule } from 'src/app/shared/shared.module';
     SharedModule,
     UsersRoutingModule
   ],
-  declarations: [UserListComponent]
+  declarations: [InventaryListComponent]
 })
 export class UsersModule { }
