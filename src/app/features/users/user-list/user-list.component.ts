@@ -5,7 +5,6 @@ import {MatSort} from '@angular/material/sort';
 import {MatTableDataSource} from '@angular/material/table';
 
 import { NGXLogger } from 'ngx-logger';
-import { NotificationService } from 'src/app/core/services/notification.service';
 export interface UserData {
   id: string;
   name: string;
