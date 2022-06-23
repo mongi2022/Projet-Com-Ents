@@ -19,6 +19,7 @@ export class LayoutComponent implements OnInit, OnDestroy, AfterViewInit {
     showSpinner: boolean = false;
     userName: string = "";
     isAdmin: boolean = false;
+    panelOpenState = false;
 
     private autoLogoutSubscription: Subscription = new Subscription;
 
